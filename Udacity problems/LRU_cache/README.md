@@ -8,8 +8,8 @@ Two dictionaries: **cache** and **timestamp_cache** have been used.
 
 ### When cache is full and new key-value pair needs to be added
 
-1. In LRU cache, the key which has been not been read or added for longest time, gets deleted from cache.
-2. Sort timestamp_cache, get the key (call it "del_key") positioned at **[0]** index.
+1. In LRU cache, the key which has been not been read or added for the longest time, gets deleted from cache.
+2. Sort timestamp_cache, get the key (call it "del_key") positioned at **[0]** index.(Getting the key with oldest timestamp)
 3. Delete "del_key" and its value from cache and timestamp_cache(Deletes timestamp for this key).
 4. Add new key-value pair in cache and timestamp_cache.
 
