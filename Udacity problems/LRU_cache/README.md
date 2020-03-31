@@ -1,10 +1,10 @@
 ## Problem explanation for LRU Cache
 
-Data structure used: **dictionary**
+Data structure used: **dictionary**.
 Two dictionaries: **cache** and **timestamp_cache** have been used.
 
-cache stores key-value pairs.
-timestamp-cache stores key-timestamp pairs. Timestamp corresponding to key is updated if it is being read or it being set in the cache.
+"cache" stores key-value pairs.
+"timestamp-cache" stores key-timestamp pairs. Timestamp corresponding to key is updated if it is being read or it being set in the cache.
 
 ### When cache is full and new key-value pair needs to be added
 
